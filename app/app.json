@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Fengshui Checker",
+    "slug": "fengshui-checker",
+    "scheme": "fengshuichecker",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fengshuichecker.app"
+    },
+    "android": {
+      "package": "com.fengshuichecker.app"
+    }
+  }
+}

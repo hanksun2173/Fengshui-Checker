@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "paths": {
+      "@fengshui/shared": ["../shared/src"],
+      "@fengshui/shared/*": ["../shared/src/*"]
+    }
+  },
+  "include": ["src"]
+}

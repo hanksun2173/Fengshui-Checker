@@ -1,0 +1,14 @@
+{
+  "name": "fengshui-checker",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "server",
+    "app"
+  ],
+  "scripts": {
+    "dev:server": "npm run dev -w server",
+    "dev:app": "npm run start -w app",
+    "typecheck": "npm run typecheck -w shared && npm run typecheck -w server && npm run typecheck -w app"
+  }
+}
